@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.88a93c52.css",
-    "main.js": "/static/js/main.942b5168.js",
-    "static/media/iStock-1343117546.jpg": "/static/media/iStock-1343117546.0c6fa0973c10fbd41cc8.jpg",
-    "static/media/iStock-2056327564.jpg": "/static/media/iStock-2056327564.d53686fd5ca1cc6d61cd.jpg",
-    "static/media/porsche-home.png": "/static/media/porsche-home.a7cec4e83eb700696373.png",
-    "static/media/service-idk.png": "/static/media/service-idk.ab159d1cdc162be44eef.png",
-    "static/media/Mountain River Line Art.svg": "/static/media/Mountain River Line Art.c12d9f1ce3a0712b401245bbf0501ded.svg",
-    "static/media/NMC logo.svg": "/static/media/NMC logo.c854de945f41393cf826008c3ca05aae.svg",
-    "index.html": "/index.html",
-    "main.88a93c52.css.map": "/static/css/main.88a93c52.css.map",
-    "main.942b5168.js.map": "/static/js/main.942b5168.js.map"
+    "main.css": "./static/css/main.5afce587.css",
+    "main.js": "./static/js/main.8c9d1f2f.js",
+    "static/media/iStock-1343117546.jpg": "./static/media/iStock-1343117546.0c6fa0973c10fbd41cc8.jpg",
+    "static/media/iStock-2056327564.jpg": "./static/media/iStock-2056327564.d53686fd5ca1cc6d61cd.jpg",
+    "static/media/porsche-home.png": "./static/media/porsche-home.a7cec4e83eb700696373.png",
+    "static/media/service-idk.png": "./static/media/service-idk.ab159d1cdc162be44eef.png",
+    "static/media/Mountain River Line Art.svg": "./static/media/Mountain River Line Art.c12d9f1ce3a0712b401245bbf0501ded.svg",
+    "static/media/NMC logo.svg": "./static/media/NMC logo.c854de945f41393cf826008c3ca05aae.svg",
+    "index.html": "./index.html",
+    "main.5afce587.css.map": "./static/css/main.5afce587.css.map",
+    "main.8c9d1f2f.js.map": "./static/js/main.8c9d1f2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.88a93c52.css",
-    "static/js/main.942b5168.js"
+    "static/css/main.5afce587.css",
+    "static/js/main.8c9d1f2f.js"
   ]
 }
