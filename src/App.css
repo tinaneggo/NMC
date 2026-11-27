@@ -556,23 +556,68 @@
   font-size: 12px
 }
 
-@media(max-width:720px) {
-  .about {
-    grid-template-columns: 1fr
+/* Stops any sideways scrolling */
+html, body { overflow-x: hidden; }
+
+@media (max-width: 720px) {
+  .logoHome {
+    height: 44px;
+    width: auto;
+    max-width: 40vw;
+    margin-left: 0;
   }
 
-  .nav ul {
-    gap: 14px
+  .logoFoot {
+    height: 35px;
+    width: auto;
+    max-width: 40vw;
+    margin-left: 0;
   }
 
-  .svc article:nth-child(2) {
-    justify-self: start;
-    text-align: left
+  /* Nav: smaller logo, links fit on one row */
+  .nav {
+    padding: 14px 5vw;
+    gap: 12px;
   }
 
-  .form {
-    margin: -40px 4vw 0;
-    padding: 26px 20px
+  .logoHome,
+  .nav .logo svg,
+  .nav .logo img {
+    height: 44px;           /* the logo was ~120px tall */
+    width: auto;
+    max-width: 40vw;
+    margin-left: 0;
+  }
+
+  .nav ul { gap: 14px; }
+
+  .nav button {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 10px 2px;      /* keeps a comfortable tap size */
+  }
+
+  /* Hero: shorter, text and button sit lower on the photo */
+  .hero.tall {
+    min-height: 70svh;
+    padding: 0 6vw 48px;
+    justify-content: flex-end;
+    background-position: 60% bottom;
+  }
+
+  .hero.tall h1 {
+    font-size: clamp(44px, 14vw, 60px);
+  }
+
+  .hero.tall p {
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    max-width: 24ch;
+  }
+
+  .hero.tall .btn {
+    font-size: 12px;
+    padding: 12px 22px;
   }
 }
 
