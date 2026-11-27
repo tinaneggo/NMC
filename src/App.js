@@ -191,7 +191,7 @@ function Contact() {
               <label htmlFor="e">Email*</label>
               <input id="e" type="email" required value={f.email} onChange={set("email")} />
 
-              <label htmlFor="v">Vehicle Make, Model, Year*</label>
+              <label htmlFor="v">Vehicle Year, Make, and Model*</label>
               <input id="v" required value={f.vehicle} onChange={set("vehicle")} />
 
               <label htmlFor="s">Service Needed*</label>
